@@ -4,7 +4,9 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "pxt-TPBot": "github:jomihal/tpbot-1a#84664f8c054247e0a27067cdddd193e2e10758ae",
+        "pxt-PlanetX-AI": "github:elecfreaks/pxt-planetx-ai#v1.0.8"
     },
     "files": [
         "main.blocks",
