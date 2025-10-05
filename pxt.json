@@ -12,8 +12,8 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "_locales/el/pxt-PlanetX-AI-strings.json",
-        "_locales/el/pxt-PlanetX-AI-jsdoc.json"
+        "_locales/el/tpbot-my-ai-lens-strings.json",
+        "_locales/el/tpbot-my-ai-lens-jsdoc.json"
     ],
     "testFiles": [
         "test.ts"
