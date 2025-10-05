@@ -1,5 +1,5 @@
 {
-    "name": "tpbot-my-ai-lens",
+    "name": "pxt_my-ai-lens",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -10,8 +10,8 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "_locales/el/tpbot-my-ai-lens-strings.json",
-        "_locales/el/tpbot-my-ai-lens-jsdoc.json"
+        "_locales/el/pxt-my-ai-lens-strings.json",
+        "_locales/el/pxt-my-ai-lens-jsdoc.json"
     ],
     "testFiles": [
         "test.ts"
