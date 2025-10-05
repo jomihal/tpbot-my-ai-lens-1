@@ -11,7 +11,9 @@
     "files": [
         "main.blocks",
         "main.ts",
-        "README.md"
+        "README.md",
+        "_locales/el/pxt-PlanetX-AI-strings.json",
+        "_locales/el/pxt-PlanetX-AI-jsdoc.json"
     ],
     "testFiles": [
         "test.ts"
