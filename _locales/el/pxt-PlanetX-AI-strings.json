@@ -63,7 +63,7 @@
     "PlanetX_AILens.letterCards.D|block": "D",
     "PlanetX_AILens.letterCards.E|block": "E",
     "PlanetX_AILens.letterCard|block": "Η εικόνα περιέχει κάρτα με γράμμα/τα: %status",
-    "PlanetX_AILens.lineData|block": "%κατάσταση της γραμμής που περιέχεται στην εικόνα",
+    "PlanetX_AILens.lineData|block": "Πάρε πληροφορίες για τη γραμμή/ες από την εικόνα: %status",
     "PlanetX_AILens.lineDirection|block": "Η εικόνα περιέχει μια γραμμή προς την κατεύθυνση του %status",
     "PlanetX_AILens.numberCards.eight|block": "8",
     "PlanetX_AILens.numberCards.five|block": "5",
@@ -148,6 +148,7 @@
     "{id:subcategory}ASR": "ASR"
 
 }
+
 
 
 
