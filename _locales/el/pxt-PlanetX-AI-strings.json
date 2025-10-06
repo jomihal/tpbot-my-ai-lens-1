@@ -51,7 +51,7 @@
     "PlanetX_AILens.checkBall|block": "Η εικόνα περιέχει μπάλα/μπάλες",
     "PlanetX_AILens.checkFace|block": "Η εικόνα περιέχει ένα πρόσωπο",
     "PlanetX_AILens.colorCheck|block": "Η εικόνα περιέχει έγχρωμη/ες κάρτα/ες: %status",
-    "PlanetX_AILens.colorData|block": "Πάρε πληροφορίες για το χρώμα της κάρτας/ων από την εικόνα' info: %status",
+    "PlanetX_AILens.colorData|block": "Πάρε πληροφορίες για το χρώμα της κάρτας/ων από την εικόνα: %status",
     "PlanetX_AILens.colorTotalNum|block": "Συνολικός αριθμός καρτών χρώματος που περιέχονται στην εικόνα",
     "PlanetX_AILens.faceData|block": "Πάρε πληροφορίες του προσώπου/πων από την εικόνα: %status",
     "PlanetX_AILens.faceTotalNum|block": "Συνολικός αριθμός προσώπων στην εικόνα",
@@ -148,6 +148,7 @@
     "{id:subcategory}ASR": "ASR"
 
 }
+
 
 
 
