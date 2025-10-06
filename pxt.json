@@ -1,29 +1,34 @@
 {
-    "name": "pxt_my-ai-lens",
+    "name": "pxt-PlanetX-AI",
+    "version": "1.0.8",
     "description": "",
     "dependencies": {
         "core": "*",
-        "radio": "*",
-        "microphone": "*",
-        "pxt-TPBot": "github:jomihal/tpbot-1a#84664f8c054247e0a27067cdddd193e2e10758ae",
-        "pxt-PlanetX-AI": "github:elecfreaks/pxt-planetx-ai#v1.0.8"
+        "microphone": "*"
     },
     "files": [
-        "main.blocks",
-        "main.ts",
         "README.md",
-        "_locales/el/pxt-my-ai-lens-strings.json",
-        "_locales/el/pxt-my-ai-lens-jsdoc.json"
+        "main.ts",
+        "_locales/zh-CN/pxt-PlanetX-AI-strings.json",
+        "_locales/zh-CN/pxt-PlanetX-AI-jsdoc-strings.json",
+        "_locales/ja/pxt-PlanetX-AI-strings.json",
+        "_locales/nb/pxt-PlanetX-AI-strings.json",
+        "_locales/de/pxt-PlanetX-AI-strings.json",
+        "_locales/ko/pxt-PlanetX-AI-strings.json",
+        "_locales/fr/pxt-PlanetX-AI-strings.json",
+        "_locales/el/pxt-PlanetX-AI-strings.json",
+        "_locales/el/pxt-PlanetX-AI-jsdoc-strings.json"
     ],
     "testFiles": [
         "test.ts"
     ],
+    "public": true,
     "targetVersions": {
-        "target": "8.0.16",
+        "target": "4.0.18",
         "targetId": "microbit"
     },
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }

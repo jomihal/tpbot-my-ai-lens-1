@@ -1,24 +1,80 @@
+![](https://img.shields.io/badge/Plantfrom-Micro%3Abit-red) ![](https://img.shields.io/travis/com/elecfreaks/pxt-PlanetX-AI) ![](https://img.shields.io/github/v/release/elecfreaks/pxt-PlanetX-AI) ![](https://img.shields.io/github/last-commit/elecfreaks/pxt-PlanetX-AI) ![](https://img.shields.io/github/languages/top/elecfreaks/pxt-PlanetX-AI) ![](https://img.shields.io/github/issues/elecfreaks/pxt-PlanetX-AI) ![](https://img.shields.io/github/license/elecfreaks/pxt-PlanetX-AI) 
 
-> Άνοιγμα αυτής της σελίδας στο [https://jomihal.github.io/tpbot-my-ai-lens-1/](https://jomihal.github.io/tpbot-my-ai-lens-1/)
+# AiLens Package
 
-## Χρήση ως επέκταση
+![](/image.jpg/)
 
-Αυτό το αποθετήριο μπορεί να προστεθεί ως **επέκταση** στο MakeCode.
+This extension is designed to programme and drive the AiLens.
 
-* άνοιγμα [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* κάντε κλικ στο **Νέο Έργο**
-* κάντε κλικ στις **Επεκτάσεις** στο μενού με το γρανάζι
-* αναζήτηση για **https://github.com/jomihal/tpbot-my-ai-lens-1** και εισαγωγή
+The AI Lens is able to achieve the functions of face recognition, balls tracking, cards recognition and characteristics acquisition.
 
-## Επεξεργασία αυτού του έργου
+## Get Product
 
-Για επεξεργασία αυτού του αποθετηρίου στο MakeCode.
+You can [get AiLens from the Elecfreaks store](https://www.elecfreaks.com/elecfreaks-smart-ai-lens-kit.html)
 
-* άνοιγμα [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* κάντε κλικ στην **Εισαγωγή** και έπειτα στην **Εισαγωγή διεύθυνσης URL**
-* επικολλήστε **https://github.com/jomihal/tpbot-my-ai-lens-1** και κάντε κλικ στην εισαγωγή
+## Use Tutorial
 
-#### Μεταδεδομένα (χρησιμοποιούνται για αναζητήσεις, απόδοση)
+You can get a detailed tutorial on how to use it here [ELECFREAKS WIKI](
+https://elecfreaks.com/learn-en/microbitplanetX/ai/index.html)
+### Block
+* Initialize AI Lens and wait for AIlens to upload IIC data
+```JavaScript
+PlanetX_AILens.initModule()
+```
+* Switch ailens function, including, card, ball, color, line inspection, feature learning
+```JavaScript
+PlanetX_AILens.switchfunc(PlanetX_AILens.FuncList.Card)
+```
+* Get the data of current frame from ailens
+```JavaScript
+PlanetX_AILens.cameraImage()
+```
+* Process the data of small ball in the screen (if the screen contains small ball and the function is selected as small ball)
+```Javascript
+PlanetX_AILens.checkBall()
+PlanetX_AILens.ballColor(PlanetX_AILens.ballColorList.Red)
+PlanetX_AILens.BallTotalNum()
+PlanetX_AILens.ballData(PlanetX_AILens.Ballstatus.X)
+```
+* Process the data of face in the picture (if the picture contains face and the function is face)
+```JavaScript
+PlanetX_AILens.checkFace()
+PlanetX_AILens.faceTotalNum()
+PlanetX_AILens.faceData(PlanetX_AILens.Facestatus.X)
+```
+* Process the card data in the screen (if the screen contains cards and the function is selected as card)
+```javascript
+PlanetX_AILens.numberCard(numberCards.1)
+PlanetX_AILens.letterCard(letterCards.A)
+PlanetX_AILens.trafficCard(trafficCards.forward)
+PlanetX_AILens.otherCard(otherCards.cat)
+PlanetX_AILens.cardTotalNum()
+PlanetX_AILens.CardData(Cardstatus.X)
+```
+* Process the data of line segments in the screen (if the screen contains line segments and the function is tracking)
 
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+```javascript
+PlanetX_AILens.lineData(Linestatus.angle)
+PlanetX_AILens.lineDirection(Linestatus.angle)
+```
+
+* Learn the characteristics of the object in the current picture, and record and save
+```javascript
+PlanetX_AILens.learnObject(1)
+```
+* Remove all learned objects
+```javascript
+PlanetX_AILens.ClearlearnObject()
+```
+* Deal with the confidence of the learned object in the picture
+```javascript
+PlanetX_AILens.objectCheck(PlanetX_AILens.learnID.ID1)
+PlanetX_AILens.objectConfidence(PlanetX_AILens.learnID.ID1)
+```
+
+## Supported targets
+for PXT/microbit
+
+## License
+MIT
+
