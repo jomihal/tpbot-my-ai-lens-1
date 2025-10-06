@@ -5,7 +5,7 @@
     "PlanetX_AILens.Ballstatus.Size|block": "Μέγεθος",
     "PlanetX_AILens.Ballstatus.X|block": "X",
     "PlanetX_AILens.Ballstatus.Y|block": "Y",
-    "PlanetX_AILens.CardData|block": "%κατάσταση της κάρτας που περιέχεται στην εικόνα",
+    "PlanetX_AILens.CardData|block": "Πάρε πληροφορίες για την κάρτα/ες από την εικόνα: %status",
     "PlanetX_AILens.Cardstatus.Confidence|block": "Εμπιστοσύνη",
     "PlanetX_AILens.Cardstatus.ID|block": "ID Καρτέλας",
     "PlanetX_AILens.Cardstatus.Size|block": "Μέγεθος",
@@ -148,3 +148,4 @@
     "{id:subcategory}ASR": "ASR"
 
 }
+
