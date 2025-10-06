@@ -45,7 +45,7 @@
     "PlanetX_AILens.ballColorList.Blue|block": "Μπλε",
     "PlanetX_AILens.ballColorList.Red|block": "Κόκκινο",
     "PlanetX_AILens.ballColor|block": "Η εικόνα περιέχει μπάλα: %χρώμα μπάλας",
-    "PlanetX_AILens.ballData|block": "%κατάσταση της μπάλας που περιέχεται στην εικόνα",
+    "PlanetX_AILens.ballData|block": "Πάρε πληροφορίες για τη μπάλα/ες από την εικόνα: %status",
     "PlanetX_AILens.cameraImage|block": "Τραβήξτε μια φωτογραφία με το AI-Lens",
     "PlanetX_AILens.cardTotalNum|block": "Συνολικός αριθμός καρτών που περιέχονται στην εικόνα",
     "PlanetX_AILens.checkBall|block": "Η εικόνα περιέχει μπάλα/μπάλες",
@@ -146,4 +146,5 @@
     "{id:group}Tracking": "Ανίχνευση γραμμής",
     "{id:subcategory}Vision": "Vision",
     "{id:subcategory}ASR": "ASR"
+
 }
