@@ -53,7 +53,7 @@
     "PlanetX_AILens.colorCheck|block": "Η εικόνα περιέχει έγχρωμη/ες κάρτα/ες: %status",
     "PlanetX_AILens.colorData|block": "%κατάσταση του χρωματικού πίνακα που περιέχεται στην εικόνα",
     "PlanetX_AILens.colorTotalNum|block": "Συνολικός αριθμός καρτών χρώματος που περιέχονται στην εικόνα",
-    "PlanetX_AILens.faceData|block": "Πάρε πληροφορίες του προσώπου/πων από την εικόνα%: %status",
+    "PlanetX_AILens.faceData|block": "Πάρε πληροφορίες του προσώπου/πων από την εικόνα: %status",
     "PlanetX_AILens.faceTotalNum|block": "Συνολικός αριθμός προσώπων στην εικόνα",
     "PlanetX_AILens.initModule|block": "AI-Lens έναρξη",
     "PlanetX_AILens.learnObject|block": "Εκμάθηση ενός αντικειμένου με Id: %thingsID",
@@ -148,6 +148,7 @@
     "{id:subcategory}ASR": "ASR"
 
 }
+
 
 
 
